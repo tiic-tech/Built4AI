@@ -1,0 +1,13 @@
+# 本地工作区 - 各产品独立repo，不推送到这里
+projects/
+
+# macOS
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
+
+# 临时文件
+*.tmp
+*.log
