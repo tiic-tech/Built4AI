@@ -83,8 +83,8 @@ Built4AI/                       # 项目管理中枢（本repo）
 ### Git Remotes管理
 ```bash
 # 在Built4AI中管理所有产品remotes
-git remote add built4rag https://github.com/archywu/built4rag
-git remote add built4skill https://github.com/archywu/built4skill
+git remote add built4rag git@github-tiic:tiic-tech/built4rag.git
+git remote add built4skill git@github-tiic:tiic-tech/built4skill.git
 
 # 批量操作
 scripts/update-remotes.sh  # 同步所有remotes
